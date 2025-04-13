@@ -1,0 +1,63 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Data - Ignore large files, keep structure
+data/raw/*.csv
+data/raw/*.csv.gz
+data/interim/*
+data/processed/*
+# !data/raw/KEEP_THIS_SAMPLE.csv # Example if you want to keep a specific small file
+
+# Models - Often large binary files
+model/*
+# !model/KEEP_THIS_MODEL.joblib # Example
+
+# Output files
+Report/*.pdf
+Report/*.pptx
+Report/*.html
+
+# Secrets / Credentials
+.env
+secrets.toml
+*.credential?
+
+# Streamlit secrets
+streamlit_app/.streamlit/secrets.toml
+
+# Dependency/Build artifacts
+*.egg-info/
+dist/
+build/
+wheels/
+*.tar.gz
+*.whl
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage*
+htmlcov/
