@@ -24,7 +24,7 @@ __pycache__/
 Thumbs.db
 
 # Data - Ignore large files, keep structure
-data/raw/*.csv
+#data/raw/*.csv
 data/raw/*.csv.gz
 data/interim/*
 data/processed/*
