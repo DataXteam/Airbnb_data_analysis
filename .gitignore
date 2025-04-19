@@ -28,7 +28,8 @@ data/raw/*.csv
 data/raw/*.csv.gz
 data/interim/*
 data/processed/*
-# !data/raw/KEEP_THIS_SAMPLE.csv # Example if you want to keep a specific small file
+!data/raw/
+!data/raw/Praha_listings.csv # Example if you want to keep a specific small file
 
 # Models - Often large binary files
 model/*
