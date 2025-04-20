@@ -27,13 +27,8 @@ Thumbs.db
 data/raw/*.csv
 data/raw/*.csv.gz
 data/raw/*.geojson
-data/interim/*
-data/processed/*
+data/raw/
 # !data/raw/KEEP_THIS_SAMPLE.csv # Example if you want to keep a specific small file
-
-# Models - Often large binary files
-model/*
-# !model/KEEP_THIS_MODEL.joblib # Example
 
 # Output files
 Report/*.pdf
