@@ -28,7 +28,6 @@ data/raw/*.csv
 data/raw/*.csv.gz
 data/raw/*.geojson
 data/raw/
-data/processed/*
 # !data/raw/KEEP_THIS_SAMPLE.csv # Example if you want to keep a specific small file
 
 # Models - Often large binary files
