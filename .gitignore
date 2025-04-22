@@ -23,11 +23,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Output files
-Report/*.pdf
-Report/*.pptx
-Report/*.html
-
 # Secrets / Credentials
 .env
 secrets.toml
