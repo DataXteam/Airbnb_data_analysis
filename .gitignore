@@ -23,13 +23,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data - Ignore large files, keep structure
-data/raw/*.csv
-data/raw/*.csv.gz
-data/raw/*.geojson
-data/raw/
-# !data/raw/KEEP_THIS_SAMPLE.csv # Example if you want to keep a specific small file
-
 # Output files
 Report/*.pdf
 Report/*.pptx
